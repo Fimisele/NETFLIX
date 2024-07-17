@@ -1,0 +1,94 @@
+.cool{
+    background-image: url(nx7.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.SUI{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.SUI img{
+    border-radius: 30px;
+}
+
+.lol a img{
+    width: 450px;
+}
+.nah a img{
+    width: 450px;
+}
+.yo a img{
+    width: 450px;
+}
+
+
+.yas a img{
+    width: 450px;
+    }
+.hehe a img{
+    width: 450px;
+}
+.gta a img{
+    width: 450px;
+}
+
+.ROCK{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.ROCK img{
+    border-radius: 30px;
+}
+
+.sup{
+    background-color: darkblue;
+    color: green;
+    margin-top: 100px;
+    padding-left: 770px;
+}
+
+@media (max-width:480px) {
+    .cool{
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 40vh;
+    }
+    .SUI{
+        display: flex;
+        flex-direction: column;
+    }
+    .lol a img{
+        width: 350px;
+        border-radius: 10px;
+    }
+    .nah a img{
+        width: 350px;
+        border-radius: 10px;
+    }
+    .yo a img{
+        width: 350px;
+        border-radius: 10px;
+    }
+    .ROCK{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .yas a img{
+    width: 350px;
+    border-radius: 10px;
+    }
+    .hehe a img{
+        width: 350px;
+        
+    }
+    .gta a img{
+        width: 350px;
+        
+    }
+}

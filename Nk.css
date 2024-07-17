@@ -1,0 +1,103 @@
+.who{
+    background-image: url(nx3.jpeg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.chill{
+    background-color: black;
+    color: gold;
+    display: flex;
+    justify-content: center;
+}
+
+.grass{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+}
+
+.lucky{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.lucky a img{
+    border-radius: 30px;
+}
+
+.ninjago a img{
+    width: 420px;
+}
+
+.tobots a img{
+    width: 420px;
+}
+
+.gal a img{
+    width: 420px;
+}
+
+
+.snow{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.snow a img{
+    border-radius: 30px;
+}
+
+.beyblade a img{
+    width: 420px;
+}
+
+.jw a img{
+    width: 420px;
+}
+
+.pikachu a img{
+    width: 420px;
+}
+
+@media (max-width :480px) {
+    .who{
+        background-repeat: no-repeat;
+        height: 40vh;
+        background-size: contain;
+    }
+    .lucky{
+      display: flex;  
+      flex-direction: column;
+    }
+    .ninjago a img{
+        width: 350px;
+        border-radius: 10px;
+    }
+    .tobots a img{
+     width: 350px;
+     border-radius: 10px;
+    }
+    .gal a img{
+        width: 350px;
+        border-radius: 10px;
+    }
+    .snow{
+        display: flex;
+        flex-direction: column;
+    }
+    .beyblade a img{
+        width: 350px;
+        border-radius: 10px;
+    }
+    .jw img{
+    width: 350px;
+    border-radius: 10px;
+    }
+    .pikachu a img{
+        width: 350px;
+        border-radius: 10px;
+    }
+}
